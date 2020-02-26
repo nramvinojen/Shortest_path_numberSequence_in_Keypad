@@ -1,0 +1,9 @@
+We wish to compute the laziest way to dial given n-digit number on a standard push button
+telephone (with 12 keys) using two fingers. We assume that the two fingers start out on the * and
+# keys, and that the effort required to move a finger from one button to another is proportional to
+the Euclidean distance between them (assume that the digit "1" is at position (0, 0), and the digit
+"5" at position (1,1)). Design an algorithm in python that computes the method of dialing that
+involves moving your fingers the smallest amount of total distance.
+
+For instance, if telephone_number = "110", the function should return the following output:
+(4.0, [('*', '#'), ('1', '#'), ('1', '#'), ('1', '0')])
